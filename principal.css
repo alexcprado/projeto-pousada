@@ -1,0 +1,277 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Seção principal - Topo */
+.topo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;   
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+.topo p {
+    margin: 15px;
+    margin-left: 200px;
+    font-size: 22px;
+}
+
+.link-topo {
+    margin: 10px;
+    margin-right: 200px;
+}
+
+.link-topo a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+.topo span {
+    color: rgb(19, 109, 253);
+}
+/* Seção Principal - Conteúdo */
+.back-image {
+    background-image: url(/fontes/assets/img-fundo.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.div-cima-img {
+    width: 567px;
+    background-color: rgb(42, 131, 102);
+    position: relative;
+    top: 240px;
+    left: 475px;
+    opacity: 60%;
+    height: 234px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.texto-cima-img h1 {
+    font-size: 58px;
+    font-weight: 700;
+    position: absolute;
+    left: 525px;
+    top: 300px;
+    color: white;
+}
+
+
+.texto-cima-img p {
+    position: absolute;
+    left: 495px;
+    top: 400px;
+    color: rgb(235, 233, 233);
+    font-size: 29px;
+}
+
+/* seção boas-vindas */
+.boas-vindas {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.boas-vindas h1 {
+padding: 30px;
+color: rgb(108, 107, 107);
+font-size: 34px;
+font-weight: 300;
+}
+
+.boas-vindas p {
+    padding-bottom: 20px;
+    color: rgb(125, 119, 119);
+}
+
+/* primeira seção de cards */
+.card-one {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 0 70px;
+}
+
+.card-one img {
+    width: 400px;
+}
+
+.card-one a {
+    display: block;
+    text-decoration: none;
+    color: rgb(91, 89, 89);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid rgb(28, 165, 149);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* seção rota */
+#rota {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#rota h1 {
+    padding: 30px;
+    color: rgb(108, 107, 107);
+    font-size: 34px;
+    font-weight: 300;
+}
+
+
+#rota p {
+    padding-bottom: 20px;
+    color: rgb(125, 119, 119);
+}
+
+iframe {
+    width: 100%;
+}
+
+#sobre {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#sobre h1 {
+    padding: 30px;
+    color: rgb(108, 107, 107);
+    font-size: 34px;
+    font-weight: 300;
+}
+
+#sobre p {
+    padding-bottom: 20px;
+    color: rgb(125, 119, 119);
+}
+
+/* segunda seção de cards */
+
+.card-two {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    flex: 1 0 350px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+
+.card-descricao {
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-img {
+    width: 30%;
+    height: 100%;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-descricao p {
+    color: rgb(125, 119, 119);
+} 
+
+/* Seção Principal - Rodapé */
+.rodape{
+    background-color: #49997d;
+    color: white;
+    margin-top: 70px;
+}
+
+.container-info-rodape {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+    max-width: 1330px;
+    width: 100%;
+}
+
+.card-info-rodape {
+    flex: 1 0 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info-rodape a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.card-info-rodape h4 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card-info-rodape p {
+    margin-left: 10px;
+    color: #ebe6e6;
+}
+
+.card-info-rodape img {
+    width: 40px;
+    height: 40px;
+}
+
+.tarja-rodape {
+    width: 1153px;
+    border: 2px solid rgb(52, 145, 114);
+    position: relative;
+    left: 46px;
+    margin: 10px 0;
+}
+
+.copyright-rodape {
+    margin: auto;
+    text-align: center;
+    background-color: #49997d;
+}
+
+.copyright-rodape p {
+    font-weight: 700;
+}
